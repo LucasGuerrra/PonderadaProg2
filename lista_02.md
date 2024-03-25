@@ -1,3 +1,37 @@
+1)B(X)
+2)B(x)
+3)D(x)
+4)D(x)
+5)B(x)
+6)B(x)
+
+7)
+8)
+//////////////////////////////
+9)
+tempoMáximo = 180 //segundos
+velocidadeMáxima = 25 //metros por segundo
+velocidadeInicial = 0 //metros por segundo 
+distância = 500 //metros
+distânciaInicial = 0 
+aceleração = 10 // metros por segundo²
+
+function limites(v0,s0,a,tM,vM): //as váriaveis são respectivamente velocidadeInicial,distânciaInicial,aceleração,tempoMáximo e velocidadeMáxima
+    //S = S0 + v0*t + a/2 * t^2
+    tempo = sqrt(2*S/a)
+    velocidade = v0 + aceleração * tempo
+
+    SE tempo > tM:
+        SE velocidade > vM:
+            retornar("O carro ultrapassou a velocidade máxima!")
+        retornar("O carro demorou demais")
+    
+    retornar (tempo/60)
+
+console.log(limites(aceleração,tempoMáximo,velocidadeMáxima,distância))
+
+
+
 # Instruções
 
 - Faça uma cópia deste arquivo .md para um repositório próprio
