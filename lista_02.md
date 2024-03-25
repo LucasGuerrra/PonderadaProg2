@@ -5,11 +5,50 @@
 5)B(x)
 6)B(x)
 
-7)
-8)
+```
+idade = INPUT escreva("Insira a sua Idade: ")
+
+IF idade < 16
+    escreva("Não pode voltar!")
+ELSE
+    IF idade >= 16 & idade < 18
+        escreva("Voto facultativo")
+    ELSE
+        escreva("Voto obrigatório!")
+```
 //////////////////////////////
-```javascript
-10)
+```
+8)
+CLASSE Formas Geométricas
+    Construtor
+        cor
+
+    Método QualACor
+        retornar cor
+CLASSE Circunferência extende Formas Geométricas
+    Construtor
+        herdar cor
+        raio
+    Método calcularÁrea(raio)
+        Área = 3.14 * raio * raio
+        retornar Área
+CLASSE Retângulo extende Formas Geométricas
+    Construtor
+        herdar cor
+        Lado1
+        Lado2
+    Método calcularÁrea(base,altura)
+        Área = Lado1 * Lado2
+        retornar Área
+
+novo Circunferência(vermelho,3)
+novo Retângulo(amarelo,4,2)
+
+escreva("Essa forma geométrica é" Circunferência.QualACor() " e sua área é "Circunferência.calcularÁrea())
+escreva("Essa forma geométrica é" Retângulo.QualACor() " e sua área é "Retângulo.calcularÁrea())
+//////////////////////////////
+```
+9)
 tempoMáximo = 180 //segundos
 velocidadeMáxima = 25 //metros por segundo
 velocidadeInicial = 0 //metros por segundo 
