@@ -8,7 +8,8 @@
 7)
 8)
 //////////////////////////////
-9)
+```javascript
+10)
 tempoMáximo = 180 //segundos
 velocidadeMáxima = 25 //metros por segundo
 velocidadeInicial = 0 //metros por segundo 
@@ -29,7 +30,7 @@ function limites(v0,s0,a,tM,vM): //as váriaveis são respectivamente velocidade
     retornar (tempo/60)
 
 console.log(limites(aceleração,tempoMáximo,velocidadeMáxima,distância))
-
+```
 
 
 # Instruções
