@@ -16,7 +16,6 @@ ELSE
     ELSE
         escreva("Voto obrigatório!")
 ```
-//////////////////////////////
 ```
 8)
 CLASSE Formas Geométricas
@@ -46,7 +45,7 @@ novo Retângulo(amarelo,4,2)
 
 escreva("Essa forma geométrica é" Circunferência.QualACor() " e sua área é "Circunferência.calcularÁrea())
 escreva("Essa forma geométrica é" Retângulo.QualACor() " e sua área é "Retângulo.calcularÁrea())
-//////////////////////////////
+```
 ```
 9)
 tempoMáximo = 180 //segundos
